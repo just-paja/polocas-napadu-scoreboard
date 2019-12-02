@@ -3,10 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^3.9.4",
+    "@material-ui/icons": "^3.0.2",
     "@material-ui/lab": "^3.0.0-alpha.30",
+    "apollo-boost": "^0.3.1",
     "decibel-meter": "^2.0.0",
+    "graphql": "^14.5.8",
+    "graphql-tag": "^2.10.1",
     "moment": "^2.24.0",
     "query-string": "^6.4.2",
+    "react": "^16.12.0",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "^2.1.8",
     "react-select": "^2.4.2",
     "throttle-debounce": "^2.1.0"
@@ -28,7 +38,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "apollo-link-schema": "^1.2.4",
     "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.12.1"
+    "enzyme-adapter-react-16": "^1.12.1",
+    "graphql-tools": "^4.0.6"
   }
 }
